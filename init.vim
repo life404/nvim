@@ -362,6 +362,9 @@ Plug 'junegunn/vim-easy-align'
 " 安装主题
 Plug 'ayu-theme/ayu-vim'
 
+" 增加R支持
+Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
+
 call plug#end()
 " 表示插件配置结束
 
