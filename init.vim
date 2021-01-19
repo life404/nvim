@@ -364,6 +364,9 @@ Plug 'ayu-theme/ayu-vim'
 
 " 增加R支持
 Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
+Plug 'gaalcaras/ncm-R'
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
 
 call plug#end()
 " 表示插件配置结束
@@ -382,7 +385,6 @@ let g:coc_global_extensions = [
 	\ 'coc-python',
 	\ 'coc-vimlsp', 
 	\ 'coc-yaml', 
-	\ 'coc-yank',
 	\ 'coc-snippets',
 	\ 'coc-sh',
 	\ 'coc-pairs',
